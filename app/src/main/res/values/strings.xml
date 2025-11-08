@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Wordy</string>
+    <string name="guess_a_word">Guess a word...</string>
+    <string name="submit">Submit</string>
+</resources>
