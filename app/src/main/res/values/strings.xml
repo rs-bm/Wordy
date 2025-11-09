@@ -2,4 +2,8 @@
     <string name="app_name">Wordy</string>
     <string name="guess_a_word">Guess a word...</string>
     <string name="submit">Submit</string>
+    <string name="clear">Clear</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="restart">Restart</string>
 </resources>

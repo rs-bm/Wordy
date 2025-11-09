@@ -16,46 +16,74 @@
             android:id="@+id/grid"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="2"
             android:layout_gravity="center"
-            android:columnCount="5"
-            android:rowCount="6"
             android:layout_marginStart="25dp"
-            android:layout_marginBottom="25dp"
             android:layout_marginEnd="25dp"
-            android:layout_marginTop="25dp">
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="25dp"
+            android:layout_weight="3"
+            android:columnCount="5"
+            android:rowCount="6">
 
-            <TextView style="@style/letter"/>
-            <TextView style="@style/letter"/>
-            <TextView style="@style/letter"/>
-            <TextView style="@style/letter"/>
-            <TextView style="@style/letter"/>
-            <TextView style="@style/letter"/>
-            <TextView style="@style/letter"/>
-            <TextView style="@style/letter"/>
-            <TextView style="@style/letter"/>
-            <TextView style="@style/letter"/>
-            <TextView style="@style/letter"/>
-            <TextView style="@style/letter"/>
-            <TextView style="@style/letter"/>
-            <TextView style="@style/letter"/>
-            <TextView style="@style/letter"/>
-            <TextView style="@style/letter"/>
-            <TextView style="@style/letter"/>
-            <TextView style="@style/letter"/>
-            <TextView style="@style/letter"/>
-            <TextView style="@style/letter"/>
-            <TextView style="@style/letter"/>
-            <TextView style="@style/letter"/>
-            <TextView style="@style/letter"/>
-            <TextView style="@style/letter"/>
-            <TextView style="@style/letter"/>
-            <TextView style="@style/letter"/>
-            <TextView style="@style/letter"/>
-            <TextView style="@style/letter"/>
-            <TextView style="@style/letter"/>
-            <TextView style="@style/letter"/>
+            <EditText style="@style/letter" />
 
+            <EditText style="@style/letter" />
+
+            <EditText style="@style/letter" />
+
+            <EditText style="@style/letter" />
+
+            <EditText style="@style/letter" />
+
+            <EditText style="@style/letter" />
+
+            <EditText style="@style/letter" />
+
+            <EditText style="@style/letter" />
+
+            <EditText style="@style/letter" />
+
+            <EditText style="@style/letter" />
+
+            <EditText style="@style/letter" />
+
+            <EditText style="@style/letter" />
+
+            <EditText style="@style/letter" />
+
+            <EditText style="@style/letter" />
+
+            <EditText style="@style/letter" />
+
+            <EditText style="@style/letter" />
+
+            <EditText style="@style/letter" />
+
+            <EditText style="@style/letter" />
+
+            <EditText style="@style/letter" />
+
+            <EditText style="@style/letter" />
+
+            <EditText style="@style/letter" />
+
+            <EditText style="@style/letter" />
+
+            <EditText style="@style/letter" />
+
+            <EditText style="@style/letter" />
+
+            <EditText style="@style/letter" />
+
+            <EditText style="@style/letter" />
+
+            <EditText style="@style/letter" />
+
+            <EditText style="@style/letter" />
+
+            <EditText style="@style/letter" />
+
+            <EditText style="@style/letter" />
 
         </GridLayout>
 
@@ -63,26 +91,60 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:orientation="vertical">
-
-
-            <EditText
-                android:id="@+id/guessET"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:gravity="center"
-                android:maxLength="5"
-                android:hint="@string/guess_a_word"
-                android:inputType="text"
-                android:textSize="24sp" />
+            android:orientation="horizontal"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp">
 
             <Button
                 android:id="@+id/submitB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="@string/submit" />
+                android:layout_weight="1"
+                android:text="@string/submit"
+                android:textSize="36sp" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp">
+
+            <Button
+                android:id="@+id/clearB"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:text="@string/clear"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/addB"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:text="@string/add"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/restartB"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:text="@string/restart"
+                android:textSize="18sp" />
+
         </LinearLayout>
 
     </LinearLayout>
